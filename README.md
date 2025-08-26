@@ -31,7 +31,8 @@ The analysis was performed on a **PCAP file** to uncover hidden files and encode
      - ZIP → `50 4B 03 04`
    - Reconstructed files based on signatures.
       <img src= "Hex Editor 1.png">
-      <img src= "BNS01.png">
+      <img src= "BNS01.jpg">
+      <img src= "bns pdf.png">
 
 4. **Base64 Decoding**
    - Detected Base64-encoded strings in traffic.
