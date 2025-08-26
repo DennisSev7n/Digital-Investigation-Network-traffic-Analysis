@@ -15,6 +15,9 @@ The analysis was performed on a **PCAP file** to uncover hidden files and encode
    - Loaded the PCAP file.
    - Applied filters like `http`.
    - Followed TCP streams to observe communications.
+     <img src= "wireshark 1.png">
+     <img src= "wireshark 2.png">
+    
 
 2. **Hex-Level Analysis**
    - Extracted raw data segments.
@@ -31,6 +34,7 @@ The analysis was performed on a **PCAP file** to uncover hidden files and encode
 4. **Base64 Decoding**
    - Detected Base64-encoded strings in traffic.
    - Decoded them to reveal hidden text.
+      <img src= "wireshark 3.png">
 
 ## Findings
 The investigation successfully recovered:
