@@ -30,11 +30,14 @@ The analysis was performed on a **PCAP file** to uncover hidden files and encode
      - PDF → `25 50 44 46` … `25 25 45 4F 46`
      - ZIP → `50 4B 03 04`
    - Reconstructed files based on signatures.
+      <img src= "Hex Editor 1.png">
+      <img src= "BNS01.png">
 
 4. **Base64 Decoding**
    - Detected Base64-encoded strings in traffic.
    - Decoded them to reveal hidden text.
       <img src= "wireshark 3.png">
+     <img src= "base64 output.png">
 
 ## Findings
 The investigation successfully recovered:
